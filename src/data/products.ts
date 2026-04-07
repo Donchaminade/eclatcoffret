@@ -1,0 +1,68 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Collier Éclat Éternel',
+    description: 'Un collier en or 18 carats serti de diamants fins.',
+    price: 295000,
+    category: 'bijoux',
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '2',
+    name: 'Bague Saphir Royal',
+    description: 'Bague en argent massif avec un saphir bleu profond.',
+    price: 185000,
+    category: 'bijoux',
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '3',
+    name: 'Coffret Velours Noir',
+    description: 'Coffret de luxe en velours pour parures complètes.',
+    price: 29500,
+    category: 'coffrets',
+    image: 'https://images.unsplash.com/photo-1584305323473-d674ede19f4a?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '4',
+    name: 'Écrin Personnalisé Pro',
+    description: 'Emballage professionnel avec logo doré pour marques de luxe.',
+    price: 9500,
+    category: 'emballages',
+    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '5',
+    name: 'Bracelet Jonc Minimaliste',
+    description: 'Bracelet épuré en or rose poli.',
+    price: 125000,
+    category: 'bijoux',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '6',
+    name: 'Coffret Bois de Rose',
+    description: 'Coffret artisanal en bois précieux avec intérieur soie.',
+    price: 55000,
+    category: 'coffrets',
+    image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '7',
+    name: 'Sac Shopping Premium',
+    description: 'Sacs en papier texturé avec poignées en ruban satin.',
+    price: 5000,
+    category: 'emballages',
+    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '8',
+    name: 'Boucles d\'oreilles Perles',
+    description: 'Perles d\'eau douce montées sur argent.',
+    price: 78000,
+    category: 'bijoux',
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800',
+  },
+];
